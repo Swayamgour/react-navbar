@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+.nav_img {
+  margin-left: 1rem;
+  margin-top: -0.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+.nav_img2 {
+  display: none;
+}
+.nav_img3 {
+  display: none;
+}
+.nav_left {
+  width: 60%;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+.nav_right {
+  margin-left: 8rem;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.center {
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
+.imgleft {
+  margin-left: 60%;
+  /* margin-bottom: 60rem; */
+  margin-top: -9rem;
+  height: 60%;
+}
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: lightgreen;
+  }
+  .imgleft {
+    margin-left: 50%;
+    /* margin-bottom: 60rem; */
+    margin-top: -9rem;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 813px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .imgleft {
+    margin-left: 40%;
+    margin-top: -9rem;
+    height: 60%;
+  }
+  .nav_left {
+    display: none;
+  }
+  .nav_img2 {
+    display: unset;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    width: 100vh;
+  }
+  .nav_img3 {
+    display: unset;
+    margin-left: 80%;
+    margin-top: 1rem;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    /* border: 1px solid black; */
+    /* width: 100vh; */
+  }
+
+  .nav_right {
+    cursor: pointer;
+    display: none;
+  }
+}
+@media screen and (max-width: 680px) {
+  body {
+    background-color: lightgreen;
+  }
+  .imgleft {
+    margin-left: 0%;
+    margin-bottom: -32rem;
+    /* margin-bottom: 60rem; */
+    margin-top: -9rem;
+    height: 60%;
+  }
+  .nav_img3 {
+    display: unset;
+    margin-left: 80%;
+    margin-top: -40rem;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    /* border: 1px solid black; */
+    /* width: 100vh; */
+  }
+  .nav_img2 {
+    display: unset;
+    margin-left: 10%;
+    margin-top: 3rem;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    /* border: 1px solid black; */
+    /* width: 100vh; */
+  }
+}
